@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+#react_intersection_observer_hook_ts
+Projeto desenvolvido em React e Typescript.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🖥️ Demo
+<div align="center">
+  <a href='https://github.com/diegodls/react_intersection_observer_hook_ts/tree/assets'>
+    <img src='https://github.com/diegodls/react_intersection_observer_hook_ts/blob/assets/preview.png?raw=true'  width="480" align="center"/></br>
+    Expandir e mais exemplos</br>
+  </a>
+ </div>
 
-## Available Scripts
+# ❓ Por quê? 
+Esta aplicação foi desenvolvida para testar o aprendizado de [React](https://github.com/facebook/react/) e [Typescript](https://www.typescriptlang.org/).</br>
+Neste projeto foi criado um [Hook](https://pt-br.reactjs.org/docs/hooks-intro.html) para monitorar o conteúdo visível da pagina.</br>
+Este hook pode ser utilizado com "n" elementos na tela, com propriedades e estados próprios/independentes.</br>
+Quando a porcentagem(definida pelo desenvolvedor) de um conteúdo aparecer na tela, o observer altera o valor do estado deste conteúdo, que pode ser usado para inúmeras coisas, como animações com CSS, alterar a visibilidade, entre outras(use a imaginação)
 
-In the project directory, you can run:
+# ⚙️ Features
+Reusabilidade </br>
+Independência de estado </br>
 
-### `yarn start`
+# 🚀 Iniciando
+Para executar este aplicativo. você deverá ter um ambiente de [trabalho configurado](https://www.google.com/) para o desenvolvimento em [React](https://github.com/facebook/react/).</br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Começando:**
+* Baixe o projeto ou clone o repositório com o comando `git clone` ([veja mais](https://help.github.com/pt/github/creating-cloning-and-archiving-repositories/cloning-a-repository));
+* Abra um prompt de comando/cmd/terminal na pasta raiz ou navegue até ela, insira o comando `npx install` ou `npm install` ou `yarn install`, dependendo do gerenciador de pacotes usado, este comando serve para instalar os pacotes/módulos utilizado nesse projeto;
+* Após a instalação dos módulos, você pode executar o projeto com o comando: ```yarn dev```.
+* Caso queira copiar apenas o hook, é só ir na pasta `hooks`, copiar o conteúdo do arquivo e utilizar em seu projeto.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+# 🔩 Libs/Módulos
+Neste projeto foram utilizado as seguintes libs:</br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[styled-components](https://styled-components.com/)</br>
 
-### `yarn build`
+**E todas as dependências desses módulos que estão presentes em seus respectivos repositórios! **
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# ❌ Problemas
+[Me avise ->](https://www.linkedin.com/in/diegoluisdasilva/).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 👏 Agradecimentos
+Agradecimentos a equipe da Rocketseat e a todos os desenvolvedores das tecnologias utilizadas.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# ⚠️ Licença
+Você pode usar este aplicativos para estudos, e apenas para estudo, está proibido a sua publicação ou apropriação do código a fim de obter lucros.
